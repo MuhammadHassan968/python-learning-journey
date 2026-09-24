@@ -49,9 +49,6 @@ print("strip():", f"{cleaned}")
 #replace( old , new) -replace occurrences
 print("replace()",cleaned.replace("Hassan","Meesum"))
 
-username = print(f"{name}786_gamil.com ")
-print("Username : " ,username)
-
 # split(delimiter) - splits into a list (defaults to whitespace)
 sentence = "apple,banana,cherry,orange"
 fruits=sentence.split(",")
@@ -70,3 +67,7 @@ print("Line 1\n\tIndented Line 2 with \"quotes\"")
 # Checking content (startswith, endswith, in)
 print("Starts with 'P'?", cleaned.startswith("P"))  # True
 print("Contains 'Prog'?", "Prog" in cleaned)
+
+#Username generation
+username = print(f"{name}7867_gamil.com ")
+print("Username : " ,username)
